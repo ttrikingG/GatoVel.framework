@@ -1,0 +1,21 @@
+{
+    "name": "gatovel1/appstarter",
+    "description": "Gatovel1 starter app",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/nucleo/protons/gears/s.o.s/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "tomtom"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
