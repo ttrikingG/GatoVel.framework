@@ -1,47 +1,60 @@
-# GatoVel.framework 🚀
+# el-gatoVel.framework 🚀
 
 ![PHP](https://img.shields.io/badge/PHP-8.4-blue)
 ![Composer](https://img.shields.io/badge/Composer-v2.6-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Framework PHP customizado para desenvolvimento de aplicações web, organizado em módulos, com suporte a MVC, Composer e configuração via `.env`.
+Framework PHP customizado para desenvolvimento de aplicações web, organizado em módulos, com suporte a MVC, Composer e configuração via `.env`.# GatoVel.framework
+├─ vendor/ # Dependências do Composer (ignorado pelo Git)
+├─ bootstrap.php # Inicialização da aplicação
+├─ composer.json # Gerenciamento de dependências
+├─ composer.lock # Versão exata das dependências
+└─ .env # Configurações de ambiente (ignorado pelo Git)
 
 ---
 
+## ⚙️ Instalação
+Copie e cole os comandos abaixo para configurar o projeto:
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/ttrikingG/el-gatoVel.framework.git
+cd el-gatoVel.framework
+
+# 2. Instalar dependências do Composer
+composer install
+
+# 3. Configurar variáveis de ambiente
+# Copie o arquivo .env.example ou crie .env
+# e configure suas credenciais de banco de dados, URLs, etc.
+
+# 4. Iniciar o servidor de desenvolvimento
+php -S localhost:8000 -t public/
 # Gatovel Framework
 
-**GatoVel** é um framework front-end moderno, estilizado com temática pixel art e inspirado em estética retro gaming. Ele traz uma experiência visual única, com animações suaves, tipografia customizada e design responsivo.
+**GatoVel** é um framework em php moderno, estilizado com temática pixel art e inspirado em estética retro gaming. Ele traz uma experiência visual única, com animações suaves, tipografia customizada e design responsivo.
 
 ---
 
-## Descrição
+✨ Funcionalidades
 
-El TomTom é uma interface elegante e rápida, pensada para desenvolvedores que querem combinar performance e estilo. Com cores vibrantes, animações parallax, efeitos glitch no título e uma navegação fluida, o framework oferece:
+Estrutura MVC organizada
 
-- Layout responsivo e moderno
-- Tipografia personalizada com a fonte Orbitron
-- Animações suaves com CSS puro
-- Design modular com seções claras e fáceis de customizar
+Modularidade para controllers e models
 
----
+Integração com Composer
 
-## Como usar
+Suporte a arquivos de configuração via .env
 
-### 1. Estrutura básica do HTML
+Pasta public pronta para assets (JS, CSS, imagens)
 
-Inclua o CSS interno (ou mova para um arquivo `.css` externo) e o script JS no final do body.
+🛠️ Uso
 
-### 2. Navegação
+Coloque seus controllers em app/nucleo/protons/Controllers/
 
-Links para as seções internas da página com efeito smooth scroll.
+Coloque seus models em app/nucleo/neutrons/Models/
 
-### 3. Personalização
-
-- Cores e fontes definidas no CSS
-- Animações de background e elementos decorativos como o "pixel-cat"
-- Seções configuradas para destacar características do framework
-
----
+Configure rotas e inicialização no bootstrap.php
 
 ## Tecnologias usadas
 
@@ -81,10 +94,62 @@ MIT © 2025 GatoVel Framework
 
 ---
 
-## Contato
 
-Criado com 💚 pela comunidade Gatovel
 
 ---
 
-Se quiser posso ajudar a gerar o CSS e JS externos também, só avisar! 🚀🐱
+## 📁 Estrutura do Projeto
+
+GatoVel.framework/
+│
+├─ app/
+│ ├─ nucleo/
+│ │ ├─ protons/ # Módulo de funcionalidades relacionadas a controllers e Exiliares do sistema
+│ │ └─ neutrons/ # Módulo de funcionalidades relacionadas a models
+│ └─ electrons/ # Módulo de funcionalidades relacionadas a views
+├─ public/ # Arquivos públicos (index.php, CSS, JS, imagens)
+├─ vendor/ # Dependências do Composer (ignorado pelo Git)
+├─ bootstrap.php # Inicialização da aplicação
+├─ composer.json # Gerenciamento de dependências
+├─ composer.lock # Versão exata das dependências
+└─ .env # Configurações de ambiente (ignorado pelo Git)
+
+---
+
+## ⚙️ Instalação
+Copie e cole os comandos abaixo para configurar o projeto:
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/ttrikingG/el-gatoVel.framework.git
+cd el-gatoVel.framework
+
+# 2. Instalar dependências do Composer
+composer install
+
+# 3. Configurar variáveis de ambiente
+# Copie o arquivo .env.example ou crie .env
+# e configure suas credenciais de banco de dados, URLs, etc.
+
+# 4. Iniciar o servidor de desenvolvimento
+php -S localhost:8000 -t public/
+
+✨ Funcionalidades
+
+Estrutura MVC organizada
+
+Modularidade para controllers e models
+
+Integração com Composer
+
+Suporte a arquivos de configuração via .env
+
+Pasta public pronta para assets (JS, CSS, imagens)
+
+🛠️ Uso
+
+Coloque seus controllers em app/nucleo/protons/Controllers/
+
+Coloque seus models em app/nucleo/neutrons/Models/
+
+Configure rotas e inicialização no bootstrap.php
