@@ -1,10 +1,15 @@
-# GatoVel.framework
+# el-gatoVel.framework 🚀
 
-Um framework PHP customizado para desenvolvimento rápido de aplicações web, com suporte a MVC, integração com Composer e organização modular de código.
+![PHP](https://img.shields.io/badge/PHP-8.4-blue)
+![Composer](https://img.shields.io/badge/Composer-v2.6-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Framework PHP customizado para desenvolvimento de aplicações web, organizado em módulos, com suporte a MVC, Composer e configuração via `.env`.
 
 ---
 
 ## 📁 Estrutura do Projeto
+
 GatoVel.framework/
 │
 ├─ app/
@@ -25,18 +30,18 @@ GatoVel.framework/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/ttrikingG/el-gatoVel.framework.git
-cd el-gatoVel.framework
+## git clone https://github.com/ttrikingG/el-gatoVel.framework.git
+## cd el-gatoVel.framework
 
 2.Instale as dependências do Composer:
-composer install
+## composer install
 
 3.Configure as variáveis de ambiente:
 
 Copie o arquivo .env.example (ou crie .env) e configure suas credenciais de banco de dados, URLs, etc.
 
 4.Inicie o servidor de desenvolvimento:
-php -S localhost:8000 -t public/
+## php -S localhost:8000 -t public/
 
 ✨ Funcionalidades
 
