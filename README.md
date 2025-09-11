@@ -1,4 +1,4 @@
-# el-gatoVel.framework 🚀
+# GatoVel.framework 🚀
 
 ![PHP](https://img.shields.io/badge/PHP-8.4-blue)
 ![Composer](https://img.shields.io/badge/Composer-v2.6-blue)
