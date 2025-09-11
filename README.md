@@ -27,22 +27,21 @@ GatoVel.framework/
 ---
 
 ## ⚙️ Instalação
+Copie e cole os comandos abaixo para configurar o projeto:
 
-1. Clone o repositório:
 ```bash
+# 1. Clonar o repositório
 git clone https://github.com/ttrikingG/el-gatoVel.framework.git
 cd el-gatoVel.framework
 
-2.Instale as dependências do Composer:
-```bash
+# 2. Instalar dependências do Composer
 composer install
 
-3.Configure as variáveis de ambiente:
+# 3. Configurar variáveis de ambiente
+# Copie o arquivo .env.example ou crie .env
+# e configure suas credenciais de banco de dados, URLs, etc.
 
-Copie o arquivo .env.example (ou crie .env) e configure suas credenciais de banco de dados, URLs, etc.
-
-4.Inicie o servidor de desenvolvimento:
-```bash
+# 4. Iniciar o servidor de desenvolvimento
 php -S localhost:8000 -t public/
 
 ✨ Funcionalidades
