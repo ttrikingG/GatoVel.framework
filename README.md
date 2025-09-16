@@ -9,19 +9,22 @@ Framework PHP customizado para desenvolvimento de aplicações web, organizado e
 
 ## 📁 Estrutura do Projeto
 
-GatoVel.framework/
-│
-├─ app/
-│ ├─ nucleo/
-│ │ ├─ protons/ # Módulo de funcionalidades relacionadas a controllers e Exiliares do sistema
-│ │ └─ neutrons/ # Módulo de funcionalidades relacionadas a models
-│ └─ electrons/ # Módulo de funcionalidades relacionadas a views
-├─ public/ # Arquivos públicos (index.php, CSS, JS, imagens)
-├─ vendor/ # Dependências do Composer (ignorado pelo Git)
-├─ bootstrap.php # Inicialização da aplicação
-├─ composer.json # Gerenciamento de dependências
-├─ composer.lock # Versão exata das dependências
-└─ .env # Configurações de ambiente (ignorado pelo Git)
+# Estrutura do GatoVel.framework
+
+| Caminho                     | Tipo       | Descrição                                                   |
+| :--------------------------- | :-------- | :---------------------------------------------------------- |
+| `app/`                       | Pasta     | Contém o núcleo e as views do sistema                       |
+| `app/nucleo/`                | Pasta     | Núcleo da aplicação                                         |
+| `app/nucleo/protons/`        | Pasta     | Funcionalidades relacionadas a controllers e auxiliares     |
+| `app/nucleo/neutrons/`       | Pasta     | Funcionalidades relacionadas a models                       |
+| `app/electrons/`             | Pasta     | Views do sistema                                            |
+| `public/`                    | Pasta     | Arquivos públicos (index.php, CSS, JS, imagens)             |
+| `vendor/`                    | Pasta     | Dependências do Composer (ignoradas pelo Git)              |
+| `bootstrap.php`              | Arquivo   | Inicialização da aplicação                                   |
+| `composer.json`              | Arquivo   | Gerenciamento de dependências                                |
+| `composer.lock`              | Arquivo   | Versão exata das dependências                                |
+| `.env`                        | Arquivo   | Configurações de ambiente (ignoradas pelo Git)             |
+
 
 🛠️ Uso
 
