@@ -9,31 +9,19 @@ Framework PHP customizado para desenvolvimento de aplicações web, organizado e
 
 ## 📁 Estrutura do Projeto
 
-## Documentação de cores
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Cor exemplo       | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Cor exemplo       | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Cor exemplo       | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Cor exemplo       | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
-# Estrutura do GatoVel.framework
-
-| Caminho                     | Tipo       | Descrição                                                   |
+| Caminho                      | Tipo      | Descrição                                                   |
 | :--------------------------- | :-------- | :---------------------------------------------------------- |
-| `app/`                       | Pasta     | Contém o núcleo e as views do sistema                       |
-| `app/nucleo/`                | Pasta     | Núcleo da aplicação                                         |
+| `app/`                       | Pasta     | Contém todo o backend                                       |
+| `app/nucleo/`                | Pasta     | Núcleo da aplicação e suas configurações                    |
 | `app/nucleo/protons/`        | Pasta     | Funcionalidades relacionadas a controllers e auxiliares     |
 | `app/nucleo/neutrons/`       | Pasta     | Funcionalidades relacionadas a models                       |
 | `app/electrons/`             | Pasta     | Views do sistema                                            |
 | `public/`                    | Pasta     | Arquivos públicos (index.php, CSS, JS, imagens)             |
-| `vendor/`                    | Pasta     | Dependências do Composer (ignoradas pelo Git)              |
-| `bootstrap.php`              | Arquivo   | Inicialização da aplicação                                   |
-| `composer.json`              | Arquivo   | Gerenciamento de dependências                                |
-| `composer.lock`              | Arquivo   | Versão exata das dependências                                |
-| `.env`                        | Arquivo   | Configurações de ambiente (ignoradas pelo Git)             |
+| `vendor/`                    | Pasta     | Dependências do Composer (ignoradas pelo Git)               |
+| `bootstrap.php`              | Arquivo   | Inicialização da aplicação                                  |
+| `composer.json`              | Arquivo   | Gerenciamento de dependências                               |
+| `composer.lock`              | Arquivo   | Versão exata das dependências                               |
+| `.env`                       | Arquivo   | Configurações de ambiente (ignoradas pelo Git)              |
 
 
 🛠️ Uso
